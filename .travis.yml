@@ -1,14 +1,14 @@
 language: python
 python:
-    - 2.7
-    - 3.5
-    - pypy-5.3.1
+  # - 2.7
+  - 3.7
+#   - pypy-5.3.1
 install:
-    - pip install -U 'setuptools>=18.5' 'pip>=6.0'
-    # Need to install performance, performance/tests/test_compare.py imports it
-    - pip install -e .
+  - pip install -U 'setuptools>=18.5' 'pip>=6.0'
+  # Need to install performance, performance/tests/test_compare.py imports it
+  - pip install -e .
 script:
-    - python runtests.py
+  - python runtests.py
 notifications:
   email:
-    - victor.stinner@gmail.com
+    - skeptycal@gmail.com
