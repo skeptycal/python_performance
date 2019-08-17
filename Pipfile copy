@@ -11,6 +11,7 @@ pytest = "*"
 SQLAlchemy = "*"
 perf = "*"
 six = "*"
+performance = {editable = true,path = "."}
 
 [requires]
 python_version = "3.7"
